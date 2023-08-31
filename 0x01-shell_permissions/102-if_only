@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(whoami)" = "guillaume" ] then chown betty hello fi
+chown-n  betty hello
