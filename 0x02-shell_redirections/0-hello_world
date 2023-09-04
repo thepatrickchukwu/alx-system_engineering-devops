@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -E "Hell0, World\n"
+echo -e "Hell0, World\n"
