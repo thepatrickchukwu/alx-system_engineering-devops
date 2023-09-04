@@ -1,2 +1,2 @@
 #!/bin/bash
-awk '/root/ {print; getline; print; getline; print; getline; print}' /etc/passwd
+grep -w -A 3 root /etc/passwd
